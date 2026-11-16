@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Turn token usage",
+    "description": "Shows a persistent usage line under every completed Chat turn: this turn's consumed tokens and the session cumulative total. Click the line for details (uncached input, cached input, cache write, output, reasoning, cache hit, provider and model). Numbers come from the session's existing token-usage projection and Chat turn statistics, with no extra model requests. Disabling the plugin removes the line and leaves session records unchanged. When the provider reported no usage or history is not fully loaded, the turn number is shown as unavailable and the cumulative total still appears."
+  }
+}
